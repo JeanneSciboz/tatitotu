@@ -5,23 +5,36 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <h1>
-            <img src="/img/logo-tatitotu.png" alt="Le logo de tattitotu." />
-          </h1>
-          <div class="subtitle">Defis de conjugaison</div>
-        </div>
-        <div class="col-4">
-          <div class="textfield">
-            <input type="text" />
-            <label></label>
+    <header class="l-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 title">
+            <h1 class="logo">
+              <img src="/img/logo.svg" alt="Le logo de tattitotu." />
+            </h1>
+            <div class="subtitle">Défis de conjugaison</div>
+          </div>
+          <div class="col-4">
+            <div class="textfield">
+              <label></label>
+              <input
+                type="text"
+                placeholder="Entrez votre code pour charger votre défi"
+              />
+            </div>
           </div>
         </div>
       </div>
+    </header>
+    <div class="container">
       <div class="row">
         <div class="col-12">class</div>
       </div>

@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --white: #fff;
+  --grey: #ececec;
 }
 
 /* ====================================
@@ -26,6 +28,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background-color: var(--grey);
 }
 
 a {
@@ -37,6 +40,10 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+header {
+  background-color: var(--white);
 }
 
 /* ====================================
