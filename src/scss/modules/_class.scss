@@ -10,18 +10,40 @@ fieldset {
 
 .class-item {
   position: relative;
+  padding-top: 60px;
 }
 
 .class-dropdown {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: red;
+  background-color: white;
   opacity: 0;
   pointer-events: none;
+  padding: 11px;
+  border-radius: 8px;
+  color: black;
+  border-radius: 6px;
+  border: 1px solid;
+  list-style: none;
+  white-space: nowrap;
 }
 
 .class-item:hover .class-dropdown {
   opacity: 1;
   pointer-events: all;
+}
+
+.class-title {
+  padding-right: 10px;
+  display: flex;
+}
+
+.class-arrow {
+  padding-left: 5px;
+}
+
+.class-line {
+  background-color: var(--grey);
+  height: 1px;
 }
