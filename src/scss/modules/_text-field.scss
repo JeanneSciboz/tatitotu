@@ -11,5 +11,12 @@
   }
 }
 
-.textfield-verb {
+.textfield-card {
+  input {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 8px;
+    border: 3px solid #bbb;
+    margin: 37px 0;
+  }
 }
