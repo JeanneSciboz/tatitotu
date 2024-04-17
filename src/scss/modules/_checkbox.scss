@@ -1,0 +1,40 @@
+.switch {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-direction: row;
+  border-bottom: 1px solid var(--purple);
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.switch.large {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.switch-wrapper {
+  width: 25px;
+  height: 15px;
+  border-radius: 10px;
+  background: var(--purple);
+  padding: 2px;
+}
+
+.switch-inner {
+  width: 11px;
+  height: 11px;
+  border-radius: 8px;
+  background: white;
+  transition: margin-left 0.3s;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 10px;
+}
+
+.switch input {
+  display: none;
+}

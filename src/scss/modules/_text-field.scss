@@ -12,6 +12,7 @@
 }
 
 .textfield-card {
+  position: relative;
   input {
     width: 100%;
     padding: 13px 22px;
@@ -22,7 +23,7 @@
 
   img {
     position: absolute;
-    left: 460px;
-    top: 385px;
+    right: 15px;
+    top: 55px;
   }
 }
