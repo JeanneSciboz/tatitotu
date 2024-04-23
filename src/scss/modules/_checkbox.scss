@@ -3,7 +3,8 @@
   gap: 10px;
   align-items: baseline;
   flex-direction: row;
-  border-bottom: 1px solid var(--purple);
+  border-bottom: 1px solid var(--darkgrey);
+  margin: 15px;
   &:last-of-type {
     border-bottom: none;
   }
@@ -19,8 +20,9 @@
   width: 25px;
   height: 15px;
   border-radius: 10px;
-  background: var(--purple);
+  background: var(--darkgrey);
   padding: 2px;
+  transition: background 0.3s;
 }
 
 .switch-inner {
@@ -33,6 +35,10 @@
 
 input:checked + .switch-wrapper .switch-inner {
   margin-left: 10px;
+}
+
+input:checked + .switch-wrapper {
+  background: var(--purple);
 }
 
 .switch input {
