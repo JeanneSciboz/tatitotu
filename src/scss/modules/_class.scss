@@ -37,10 +37,13 @@ fieldset {
 .class-title {
   padding-right: 10px;
   display: flex;
+  align-items: center;
 }
 
 .class-arrow {
   padding-left: 5px;
+  height: 15px;
+  width: 15px;
 }
 
 .class-line {
