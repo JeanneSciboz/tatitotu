@@ -46,4 +46,10 @@ fieldset {
 .class-line {
   background-color: var(--grey);
   height: 1px;
+  margin: 5px 0;
+}
+
+.class-dropdown li:hover {
+  background: rgba(#b47fff, 0.3);
+  border-radius: 5px;
 }
